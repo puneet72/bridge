@@ -1,108 +1,95 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bridge - Your Link Hub</title>
+  <title>Bridge</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Inter', sans-serif;
-    }
-
     body {
-      background: linear-gradient(135deg, #0f172a, #1e293b);
-      color: white;
-      text-align: center;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #111;
     }
 
     .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 100px 20px;
+      max-width: 1000px;
+      margin: auto;
+      padding: 80px 20px;
+      text-align: center;
     }
 
     h1 {
-      font-size: 48px;
+      font-size: 60px;
       font-weight: 800;
+      line-height: 1.1;
     }
 
     p {
       margin-top: 20px;
-      font-size: 18px;
-      opacity: 0.8;
-    }
-
-    .cta {
-      margin-top: 40px;
+      font-size: 20px;
+      color: #555;
     }
 
     .btn {
+      margin-top: 40px;
       display: inline-block;
-      padding: 15px 30px;
-      background: #3b82f6;
+      padding: 14px 30px;
+      background: black;
       color: white;
       text-decoration: none;
-      border-radius: 10px;
+      border-radius: 8px;
       font-weight: 600;
-      transition: 0.3s;
+      transition: 0.2s ease;
     }
 
     .btn:hover {
-      background: #2563eb;
-      transform: scale(1.05);
+      background: #333;
     }
 
-    .features {
+    .mockup {
       margin-top: 80px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 30px;
+      padding: 40px;
+      background: #f4f4f4;
+      border-radius: 20px;
+      display: inline-block;
+      width: 300px;
     }
 
-    .feature {
-      background: rgba(255,255,255,0.05);
-      padding: 30px;
-      border-radius: 15px;
+    .link {
+      background: white;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      font-weight: 500;
+      border: 1px solid #ddd;
     }
 
     footer {
-      margin-top: 80px;
+      margin-top: 100px;
       padding: 20px;
       font-size: 14px;
-      opacity: 0.6;
+      color: #888;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <h1>All Your Links. One Beautiful Page.</h1>
-    <p>Create your personal link hub in seconds and share everything with one URL.</p>
+    <h1>One link.<br>Infinite possibilities.</h1>
+    <p>Create your personal link page in seconds.</p>
 
-    <div class="cta">
-      <a href="#" class="btn">Get Started Free</a>
-    </div>
+    <a href="#" class="btn">Get Started</a>
 
-    <div class="features">
-      <div class="feature">
-        <h3>⚡ Fast Setup</h3>
-        <p>Create your page in under a minute.</p>
-      </div>
-      <div class="feature">
-        <h3>📊 Analytics</h3>
-        <p>Track clicks and understand your audience.</p>
-      </div>
-      <div class="feature">
-        <h3>🎨 Customizable</h3>
-        <p>Choose themes and personalize your page.</p>
-      </div>
+    <div class="mockup">
+      <div class="link">@puneet</div>
+      <div class="link">My Startup</div>
+      <div class="link">LinkedIn</div>
+      <div class="link">Instagram</div>
     </div>
 
     <footer>
-      © 2026 Bridge. Built by Puneet 🚀
+      © 2026 Bridge
     </footer>
   </div>
 
