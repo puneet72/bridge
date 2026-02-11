@@ -1,96 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Bridge</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Bridge — One Link for Everything</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
+      padding: 0;
       font-family: 'Inter', sans-serif;
-      background: #ffffff;
+      background: #fff;
       color: #111;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 80px 20px;
       text-align: center;
     }
 
+    .container {
+      max-width: 450px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin: auto;
+      background: #e2e8f0;
+    }
+
     h1 {
-      font-size: 60px;
-      font-weight: 800;
-      line-height: 1.1;
+      font-size: 28px;
+      font-weight: 700;
+      margin-top: 22px;
     }
 
     p {
-      margin-top: 20px;
-      font-size: 20px;
+      font-size: 16px;
       color: #555;
+      margin-top: 6px;
     }
 
     .btn {
-      margin-top: 40px;
-      display: inline-block;
-      padding: 14px 30px;
-      background: black;
-      color: white;
+      display: block;
+      width: 100%;
+      margin: 16px 0;
+      padding: 14px;
+      border-radius: 12px;
       text-decoration: none;
-      border-radius: 8px;
       font-weight: 600;
+      font-size: 16px;
+      color: #111;
+      border: 1px solid #ddd;
       transition: 0.2s ease;
     }
 
     .btn:hover {
-      background: #333;
-    }
-
-    .mockup {
-      margin-top: 80px;
-      padding: 40px;
-      background: #f4f4f4;
-      border-radius: 20px;
-      display: inline-block;
-      width: 300px;
-    }
-
-    .link {
-      background: white;
-      padding: 12px;
-      margin: 10px 0;
-      border-radius: 8px;
-      font-weight: 500;
-      border: 1px solid #ddd;
+      background: #f3f4f6;
     }
 
     footer {
-      margin-top: 100px;
-      padding: 20px;
-      font-size: 14px;
-      color: #888;
+      margin-top: 40px;
+      font-size: 13px;
+      color: #777;
     }
   </style>
 </head>
 <body>
 
   <div class="container">
-    <h1>One link.<br>Infinite possibilities.</h1>
-    <p>Create your personal link page in seconds.</p>
+    <div class="avatar"></div>
+    <h1>Bridge — Link Hub</h1>
+    <p>Bring all your links into one simple page.</p>
 
-    <a href="#" class="btn">Get Started</a>
+    <a href="#" class="btn">My Website</a>
+    <a href="#" class="btn">LinkedIn</a>
+    <a href="#" class="btn">Instagram</a>
+    <a href="#" class="btn">Twitter</a>
+    <a href="#" class="btn">Contact</a>
 
-    <div class="mockup">
-      <div class="link">@puneet</div>
-      <div class="link">My Startup</div>
-      <div class="link">LinkedIn</div>
-      <div class="link">Instagram</div>
-    </div>
-
-    <footer>
-      © 2026 Bridge
-    </footer>
+    <footer>© 2026 Bridge</footer>
   </div>
 
 </body>
