@@ -1,22 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bridge</title>
+  <title>Bridge - Your Link Hub</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
-    body {
-      background: black;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: Arial;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
     }
-    h1 { font-size: 40px; }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 100px 20px;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: 800;
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: 18px;
+      opacity: 0.8;
+    }
+
+    .cta {
+      margin-top: 40px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #3b82f6;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+      transform: scale(1.05);
+    }
+
+    .features {
+      margin-top: 80px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+
+    .feature {
+      background: rgba(255,255,255,0.05);
+      padding: 30px;
+      border-radius: 15px;
+    }
+
+    footer {
+      margin-top: 80px;
+      padding: 20px;
+      font-size: 14px;
+      opacity: 0.6;
+    }
   </style>
 </head>
 <body>
-  <h1>Bridge is Live 🚀</h1>
+
+  <div class="container">
+    <h1>All Your Links. One Beautiful Page.</h1>
+    <p>Create your personal link hub in seconds and share everything with one URL.</p>
+
+    <div class="cta">
+      <a href="#" class="btn">Get Started Free</a>
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <h3>⚡ Fast Setup</h3>
+        <p>Create your page in under a minute.</p>
+      </div>
+      <div class="feature">
+        <h3>📊 Analytics</h3>
+        <p>Track clicks and understand your audience.</p>
+      </div>
+      <div class="feature">
+        <h3>🎨 Customizable</h3>
+        <p>Choose themes and personalize your page.</p>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 Bridge. Built by Puneet 🚀
+    </footer>
+  </div>
+
 </body>
 </html>
